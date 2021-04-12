@@ -1,0 +1,125 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('https://docmanagement.com.br/wp-content/uploads/2015/12/bigstock-Technology-background-from-se-672404352.jpg');
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+}
+
+
+.container{
+/*   background: #1A2980;  fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  flex-direction: column;
+  display: flex;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-bottom: 5px solid #4091ff
+}
+
+header{
+  align-items: center;
+  display: flex;
+}
+
+header img{
+  margin: 5%;
+  border-radius: 50%;
+  border: 8px solid white;
+}
+
+header h1{
+  width: 350px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+.infos{
+  width: 350px;
+  color: white;
+  text-align: center; 
+}
+
+.infos span{
+  font-size: 20px;
+}
+
+.containerInsignias{
+  width: 600px;
+  background-color: white;
+  padding: 20px 12px;
+}
+
+.containerInsignias h2{
+  text-align: center;
+}
+
+ol li{
+  width: 220px;
+  max-height: 50px;
+  padding: 12px;
+  margin: 1%;
+  background-color: #deecff;
+  border-left: 7px solid #4091ff;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.alignOl{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.socialMedia{
+  padding: 0px 57px;
+  padding-bottom: 50px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.socialMedia button{
+  min-width: 120px;
+  padding: 12px;
+  font-size: 14px;
+  text-transform: capitalize;
+  background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.socialMedia button a {
+  color: white;
+}
+
+.socialMedia button:hover {
+  opacity: https://i.insider.com/59c5368619d2f58d008b4b5e?width=1100&format=jpeg&auto=webp;
+}

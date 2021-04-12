@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('https://scontent.fssa15-1.fna.fbcdn.net/v/t1.6435-9/67367057_471499300108339_4656328209149722624_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_ohc=Pdvt4BPARBQAX9gnjFp&_nc_ht=scontent.fssa15-1.fna&oh=8d2747edaf5c864c7754ac7c7dc31ba2&oe=608B4254');
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  padding-top: 440px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+body > img {
+  margin: 0 10px;
+}

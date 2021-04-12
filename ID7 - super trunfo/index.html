@@ -1,0 +1,35 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <head>
+        <title>
+            Super Trunfo
+        </title>
+    </head>
+
+    <body>
+        <div class="container">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+                alt="">
+            <h1 class="page-title">Super Trunfo</h1>
+            <p class="baralho">Baralho</p>
+            <div class="cartas"><img src="https://pm1.narvii.com/6234/36747717a91ffd2b106a06f9231189a3e2d934c7_hq.jpg"><img src="https://pm1.narvii.com/6234/deb7547900ed566e694649ffdea55d4c175489e5_hq.jpg"><img src="https://i.imgur.com/J8CKbvk.jpg"></div>
+
+            <div><button onclick="sortearCarta()" id="btnSortear">Sortear carta</button></div>
+            <h2>SUA VEZ!</h2>
+            <div class="cartas" id="carta"></div>
+
+            <form id="form">
+                <h2>Escolha o seu atributo</h2>
+                <div class="opcoes" id="opcoes"></div>
+                <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            </form>
+            <p class="page-title" id="resultado"></p>
+            <h2>Carta da Máquina</h2>
+            <div class="cartas" id="maquina"></div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,38 @@
+<html>
+  <header>
+    <link rel="stylesheet" href="style.css">
+  </header>
+  <head>
+      <title>
+          tabela de classificação
+      </title>
+  </head>
+
+  <body>
+    <div class= "card-titulo">
+    <h1 class="titulo"><strong>Tabela de classificação</strong></h1> 
+    </div>
+      <table class="topo" style="width:100%">
+          <thead>
+              <tr>
+                  <th>Nome</th>
+                  <th>Vitórias</th>
+                  <th>Empates</th>
+                  <th>Derrotas</th>
+                  <th>Pontos</th>
+                  <th colspan="3">Ações</th>
+              </tr>
+          </thead>
+          <tbody id="tabelaJogadores">
+          </tbody>
+      </table>
+    <div class="add">
+      <button class="adicionar" onclick="adicionarJogador()"> Adicionar Jogador </button>
+    </div>
+    <div class="add">
+      <button class="adicionar" onclick="ranking()"> Fim de Jogo</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+
+</html>
